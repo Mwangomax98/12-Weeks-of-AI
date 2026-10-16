@@ -376,6 +376,11 @@ h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; }
 .duo img + img { margin-left: -16px; }
 .initials { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--navy); color: var(--orange); font-family: var(--font-head); font-weight: 800; }
 
+/* Head of Strategy: photo beside the quote */
+.leader { display: grid; grid-template-columns: 340px 1fr; gap: 56px; align-items: center; max-width: 1060px; }
+.leader .quote { margin: 0; }
+.leader:hover .photo::before { transform: translate(24px, 24px); }
+
 /* ===== Where we're going ===== */
 .going { display: grid; grid-template-columns: 1fr 1.4fr; gap: 64px; align-items: center; }
 .journey { display: flex; flex-direction: column; align-items: flex-start; }
@@ -570,7 +575,7 @@ body::after {
   .waitlist { padding-top: 0; }
   .cards.two, .cards.three, .about-grid, .contact-grid, .going { grid-template-columns: 1fr; }
   .about-grid, .going { gap: 24px; }
-  .founder, .founder.reverse { grid-template-columns: 1fr; gap: 36px; }
+  .founder, .founder.reverse, .leader { grid-template-columns: 1fr; gap: 36px; }
   .photo { max-width: 340px; width: calc(100% - 20px); }
   .waitlist-box { padding: 36px 22px; border-radius: 26px; }
   .quote { padding: 44px 24px 28px; }

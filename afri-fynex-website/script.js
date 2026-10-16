@@ -213,7 +213,7 @@ if (finePointer && !reduceMotion) {
 
 // ----- Founder photos drift slightly while scrolling (depth effect) -----
 if (!reduceMotion) {
-  const photos = document.querySelectorAll(".founder .photo");
+  const photos = document.querySelectorAll(".founder .photo, .leader .photo");
   let parallaxQueued = false;
   const parallax = () => {
     parallaxQueued = false;
