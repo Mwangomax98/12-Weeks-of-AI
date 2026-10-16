@@ -59,17 +59,94 @@
       </svg>
 
       <div class="container hero-inner">
-        <p class="eyebrow hero-in" style="--d:.1s"><span class="dot"></span> Built in Tanzania · From Africa to the World</p>
-        <h1 class="hero-title">
-          <span class="word"><span>Move.</span></span>
-          <span class="word"><span>Pay.</span></span>
-          <span class="word"><span>Manage.</span></span>
-        </h1>
-        <p class="lead hero-in" style="--d:.9s">Practical digital solutions for everyday life and business, built in Tanzania, in Africa. Designed for the world.</p>
-        <p class="hero-text hero-in" style="--d:1.05s">We are building a connected set of digital tools that make the essentials simpler: running your business, getting around and handling payments. Less time on daily hassles, more time on what matters.</p>
-        <div class="btn-row hero-in" style="--d:1.2s">
-          <a href="#waitlist" class="btn btn-accent magnetic">Get Early Access <span class="arrow">&rarr;</span></a>
-          <a href="#partner" class="btn btn-ghost magnetic">Partner With Us</a>
+        <div class="hero-copy">
+          <p class="eyebrow hero-in" style="--d:.1s"><span class="dot"></span> Built in Tanzania · From Africa to the World</p>
+          <h1 class="hero-title">
+            <span class="word"><span>Move.</span></span>
+            <span class="word"><span>Pay.</span></span>
+            <span class="word"><span>Manage.</span></span>
+          </h1>
+          <p class="lead hero-in" style="--d:.9s">Practical digital solutions for everyday life and business, built in Tanzania, in Africa. Designed for the world.</p>
+          <p class="hero-text hero-in" style="--d:1.05s">We are building a connected set of digital tools that make the essentials simpler: running your business, getting around and handling payments. Less time on daily hassles, more time on what matters.</p>
+          <div class="btn-row hero-in" style="--d:1.2s">
+            <a href="#waitlist" class="btn btn-accent magnetic">Get Early Access <span class="arrow">&rarr;</span></a>
+            <a href="#partner" class="btn btn-ghost magnetic">Partner With Us</a>
+          </div>
+        </div>
+
+        <!-- ===== Phone showcase (concept screens, switch with the orange word) ===== -->
+        <div class="hero-visual hero-in" style="--d:1s" aria-hidden="true">
+          <div class="phone-wrap">
+            <div class="phone">
+              <div class="island"></div>
+              <div class="screen">
+                <div class="app-top">
+                  <span class="app-logo">AF</span>
+                  <span class="badge">Concept preview · Coming soon</span>
+                </div>
+
+                <div class="screens">
+                  <!-- MOVE -->
+                  <div class="scr scr-move active">
+                    <p class="scr-title">Where to?</p>
+                    <div class="map">
+                      <svg viewBox="0 0 228 220">
+                        <path class="route" d="M28 196 C 70 170, 40 130, 100 116 S 176 92, 196 34" />
+                        <circle cx="28" cy="196" r="7" class="pin-a" />
+                        <circle cx="196" cy="34" r="8" class="pin-b" />
+                        <circle r="7" class="car">
+                          <animateMotion dur="4s" repeatCount="indefinite" path="M28 196 C 70 170, 40 130, 100 116 S 176 92, 196 34" />
+                        </circle>
+                      </svg>
+                    </div>
+                    <div class="mini-card">
+                      <span class="avatar-sm">DK</span>
+                      <span><strong>Driver arriving</strong><small>3 min away · Kariakoo</small></span>
+                    </div>
+                  </div>
+
+                  <!-- PAY -->
+                  <div class="scr scr-pay">
+                    <p class="scr-title">Send money</p>
+                    <div class="pay-card">
+                      <small>Amount</small>
+                      <strong>TSh <span class="count" data-to="25000">25,000</span></strong>
+                      <small>To: Kariakoo Traders</small>
+                    </div>
+                    <div class="sent">
+                      <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" /><path d="M12 21l6 6 11-13" /></svg>
+                      <span><strong>Payment sent</strong><small>Just now</small></span>
+                    </div>
+                    <div class="tx"><span>Received · Juma</span><b class="plus">+40,000</b></div>
+                    <div class="tx"><span>Paid · Water bill</span><b>-18,500</b></div>
+                  </div>
+
+                  <!-- MANAGE -->
+                  <div class="scr scr-manage">
+                    <p class="scr-title">Today's business</p>
+                    <div class="kpis">
+                      <div><small>Money in</small><strong>480K</strong></div>
+                      <div><small>Money out</small><strong>215K</strong></div>
+                    </div>
+                    <div class="bars">
+                      <span style="--h:45%;--i:0"></span><span style="--h:62%;--i:1"></span><span style="--h:38%;--i:2"></span>
+                      <span style="--h:70%;--i:3"></span><span style="--h:55%;--i:4"></span><span style="--h:82%;--i:5"></span>
+                      <span class="top" style="--h:96%;--i:6"></span>
+                    </div>
+                    <div class="days"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                    <div class="tx profit"><span>Profit today</span><b class="plus">+265K</b></div>
+                  </div>
+                </div>
+
+                <div class="tabbar">
+                  <span class="tab on">Move</span><span class="tab">Pay</span><span class="tab">Manage</span>
+                </div>
+              </div>
+            </div>
+            <div class="float-chip fc1"><span class="fdot"></span>Trip booked</div>
+            <div class="float-chip fc2"><span class="fdot o"></span>Payment received</div>
+            <div class="float-chip fc3"><span class="fdot w"></span>Records updated</div>
+          </div>
         </div>
       </div>
 
