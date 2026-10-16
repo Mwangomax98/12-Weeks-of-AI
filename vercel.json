@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/afri-fynex-website/index.html" },
+    { "source": "/:path*", "destination": "/afri-fynex-website/:path*" }
+  ]
+}
